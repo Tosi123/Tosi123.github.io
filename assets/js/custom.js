@@ -17,8 +17,8 @@ function countDown(){
   document.getElementById("d-day").innerHTML = "전역: " + d +"일 " + h + "시간 " + m + "분 " + s + "초"; });
 }
   
-function manuDrop(){
-      $(document).ready(function(){
+//Side Bar보기 메뉴
+$(document).ready(function(){
         $(".menu>a").click(function(){
             var submenu = $(this).next("ul");
             // submenu 가 화면상에 보일때는 위로 보드랍게 접고 아니면 아래로 보드랍게 펼치기
@@ -32,8 +32,6 @@ function manuDrop(){
         });
         // menu class 중에 두번째 있는 menu 의 하위에 있는 a태그에 클릭 이벤트를 발생시킨다.
         $(".menu:eq(1)>a").click();
-    });
-}
+});
 
 countDown();
-manuDrop();
