@@ -1,3 +1,4 @@
+/*
 //군복무 잔여 기간 스크립트
 function countDown(){
   //디데이 종료 일자 설정 
@@ -35,3 +36,4 @@ $(document).ready(function(){
 });
 
 countDown();
+*/
